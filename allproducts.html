@@ -372,22 +372,15 @@
 
 
     <!-- Start breadcrumb section -->
-    <section id="breadcrumb-section" class="mt-2">
+    <section id="breadcrumb-section" class="mt-4">
         <div class="uk-container">
             <div class="row">
                 <div class="col-12">
-                    <nav aria-label="Breadcrumb" style="border-radius: 3px; padding-top: 12px; padding-bottom: 15px;">
-                        <ul class="uk-breadcrumb d-inline">
-                            <li><a href="index.html" style="text-decoration: none;">Home</a></li>
-                            <li class="uk-disabled"><a>All Products (1295)</a></li>
+                    <nav aria-label="Breadcrumb">
+                        <ul class="uk-breadcrumb">
+                            <li><a href="index.html" style="text-decoration: none;"><i class="fa fa-home fa-fw"></i> Home</a></li>
+                            <li class="uk-disabled"><a>All Products</a></li>
                         </ul>
-
-                        <div class="uk-float-right d-inline">
-                            <form class="uk-search uk-search-default" style="width: 300px; margin-top: -30px;">
-                                <input class="uk-search-input" type="search" placeholder="Search products..." aria-label="Search" style="background-color: #fff; border-radius: 3px; border: 1px solid rgba(255, 195, 16, 0.5); font-size: 14px;">
-                                <button class="uk-search-icon" uk-search-icon></button>
-                            </form>
-                        </div>
                     </nav>
 
                     
@@ -399,13 +392,25 @@
 
 
     <!-- Start allproducts section -->
-    <section id="allproducts-section" class="mt-0">
+    <section id="allproducts-section" class="mt-2">
         <div class="uk-container">
             <div class="row">
 
-                <div class="mb-1">
-                    <form class="uk-search uk-search-default" style="width: 100%;">
-                        <input class="uk-search-input" type="search" placeholder="Search products..." aria-label="Search" style="background-color: #fff; border-radius: 3px; border: 1px solid rgba(255, 195, 16, 0.5); font-size: 14px; margin-bottom: 10px;">
+                <div class="mb-3">
+                    <div class="uk-float-left d-inline" style="border-left: 3px solid #FFC310;">
+                        <h5 style="margin-left: 10px;">ALL PRODUCTS (1295)</h5>
+                    </div>
+                    <div class="uk-float-right d-inline">
+                        <form class="uk-search uk-search-default lg_form" style="width: 350px;">
+                            <input class="uk-search-input" type="search" placeholder="Search products..." aria-label="Search" style="background-color: #fff; border-radius: 3px; border: 1px solid rgba(255, 195, 16, 0.5); font-size: 14px;">
+                            <button class="uk-search-icon" uk-search-icon></button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <form class="uk-search uk-search-default sm_form" style="width: 100%;">
+                        <input class="uk-search-input" type="search" placeholder="Search products..." aria-label="Search" style="background-color: #fff; border-radius: 3px; border: 1px solid rgba(255, 195, 16, 0.5); font-size: 14px;">
                         <button class="uk-search-icon" uk-search-icon></button>
                     </form>
                 </div>
