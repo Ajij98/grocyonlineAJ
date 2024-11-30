@@ -61,7 +61,7 @@ body{
 }
 
 
-#allproducts-section form{
+#allproducts-section .sm_form{
 	display: none;
 }
 
@@ -111,12 +111,12 @@ body{
 		margin-top: 13px;
 	}
 
-	#breadcrumb-section form{
+	#allproducts-section .lg_form{
 		display: none;
 	}
 
-	#allproducts-section form{
-		display: inline;
+	#allproducts-section .sm_form{
+		display: block;
 	}
 
 }
@@ -137,7 +137,7 @@ body{
 
 
 	#category-section img {
-		width: 55px;
+		width: 80px;
 	}
 	#category-section p{
 		font-size: 15px;
