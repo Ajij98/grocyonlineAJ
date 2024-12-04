@@ -273,13 +273,13 @@
 
 
     <!-- Start breadcrumb section -->
-    <section id="breadcrumb-section" class="mt-2">
+    <section id="breadcrumb-section" class="mt-3">
         <div class="uk-container">
             <div class="row">
                 <div class="col-12">
-                    <nav aria-label="Breadcrumb" class="shadow-sm" style="background-color: #fff; border-radius: 3px; padding-left: 18px; padding-top: 12px; padding-bottom: 1px;">
+                    <nav aria-label="Breadcrumb">
                         <ul class="uk-breadcrumb">
-                            <li><a href="index.html" style="text-decoration: none;">Home</a></li>
+                            <li><a href="index.html" style="text-decoration: none;"><i class="fa fa-home fa-fw"></i>Home</a></li>
                             <li><a href="#" style="text-decoration: none;">Vegetables</a></li>
                             <li class="uk-disabled"><a>Cabbage (বাঁধাকপি)</a></li>
                         </ul>
@@ -298,11 +298,11 @@
         <div class="uk-container">
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <div class="uk-position-relative uk-visible-toggle uk-light shadow-sm" tabindex="-1" uk-slideshow="autoplay: true; autoplay-interval: 3000;" style="background-color: #fff; border-radius: 3px;">
-
-                        <div class="uk-slideshow-items" uk-lightbox="animation: slide">
+                    <div class="uk-card uk-card-default shadow-sm py-2 px-2" style="border-radius: 3px;">
+                        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="autoplay: true; autoplay-interval: 3000; pause-on-hover: true">
+                            <div class="uk-slideshow-items" uk-lightbox="animation: slide">
                             <div>
-                                <img src="https://static.vecteezy.com/system/resources/thumbnails/035/047/756/small_2x/ai-generated-high-quality-photo-of-fresh-green-cabbage-vegetable-png.png" alt="" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
+                                <a href="https://static.vecteezy.com/system/resources/thumbnails/035/047/756/small_2x/ai-generated-high-quality-photo-of-fresh-green-cabbage-vegetable-png.png"><img src="https://static.vecteezy.com/system/resources/thumbnails/035/047/756/small_2x/ai-generated-high-quality-photo-of-fresh-green-cabbage-vegetable-png.png" width="300" alt="" style="display: block; margin-left: auto; margin-right: auto; width: 50%;"></a>
                             </div>
                             <div>
                                 <a href="https://s3-ap-southeast-1.amazonaws.com/com.meenabazaronline.v1.01/product/2024/10/2/llnFQEdywq05PpdF7Ca3F1ZGtkIno3InIMPUWmps___lg.webp"><img src="https://s3-ap-southeast-1.amazonaws.com/com.meenabazaronline.v1.01/product/2024/10/2/llnFQEdywq05PpdF7Ca3F1ZGtkIno3InIMPUWmps___lg.webp" width="300" alt="" style="display: block; margin-left: auto; margin-right: auto; width: 50%;"></a>
@@ -317,7 +317,9 @@
 
                         <a class="uk-position-center-left uk-position-small" href uk-slidenav-previous uk-slideshow-item="previous" style="color: #afafaf; width: 30px;"></a>
                         <a class="uk-position-center-right uk-position-small" href uk-slidenav-next uk-slideshow-item="next" style="color: #afafaf; width: 30px;"></a>
-                    </div>
+                        </div>
+                    
+
 
 
                     <div class="uk-child-width-1-4 uk-child-width-1-4@s uk-child-width-1-4@m uk-child-width-1-4@l uk-child-width-1-4@xl uk-grid-small uk-grid-match uk-text-center mt-2" uk-grid uk-lightbox="animation: slide">
@@ -343,10 +345,12 @@
                         </div>
                     </div>
 
+                    </div>
+
 
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <div class="uk-card uk-card-default uk-card-body" style="border-radius: 3px;">
+                    <div class="uk-card uk-card-default uk-card-body shadow-sm" style="border-radius: 3px;">
                         <h5 class="mb-3" style="color: #000;">Rupchanda Soyabean Oil 5Ltr</h5>
 
                         <h5><span style="color: #F99B0C;">TK 850.00</span> <span style="font-size: 16px; font-weight: normal;"> ~ 5kg</span> | <small style="font-size: 15px; font-weight: normal;"><del>TK 870.00</del></small> <img src="assets/img/discount-label.png" class="discount-label"> <span class="uk-label" style="background-color: #FFE7D9; color: #FF6000; text-transform: capitalize; font-weight: normal; font-size: 12px;">Save 20Tk</span></h5>
@@ -358,8 +362,8 @@
 
                         <br><br><br>
 
-                        <ul uk-accordion="collapsible: false">
-                            <li>
+                        <ul uk-accordion>
+                            <li class="uk-open">
                                 <a class="uk-accordion-title" href style="font-weight: 500; text-decoration: none; font-size: 15px; color: #696969; border-bottom: 1px solid #dedfe5;">Description</a>
                                 <div class="uk-accordion-content">
                                     <p style="font-size: 14px;">Cabbage is a member of the cruciferous vegetable family, which also includes broccoli, kale, and Brussels sprouts. It has a compact head of tightly packed leaves, with the outer leaves usually being darker than the inner leaves. The leaves are smooth and slightly waxy, and the heads can range in size from 1–8 lb.</p>
@@ -383,17 +387,27 @@
 
 
     <!-- Start newproducts section -->
-    <section id="newproduct-section" class="mt-4">
+    <section id="similarproduct-section" class="mt-4">
         <div class="uk-container">
             <div class="row">
 
-                <div>
-                    <div class="uk-float-left d-inline" style="margin-top: 20px; margin-bottom: 30px; border-left: 3px solid #FFC310;">
+                <div style="margin-top: 40px;">
+                    <div class="uk-float-left d-inline" style="border-left: 3px solid #FFC310;">
                         <h5 style="margin-left: 10px;">SIMILAR PRODUCTS</h5>
                     </div>
-                    <div class="uk-float-right d-inline" style="margin-top: 20px; margin-bottom: 30px;">
-                        <a href="#" class="uk-button uk-button-small shadow-sm" style="background-color: #0FCD5B; color: #fff; border-radius: 2px; text-transform: capitalize;">See All <span uk-icon="icon: arrow-right"></span></a>
+                    <div class="uk-float-right d-inline">
+                        <form class="uk-search uk-search-default lg_form" style="width: 400px;">
+                            <input class="uk-search-input" type="search" placeholder="Search products..." aria-label="Search" style="background-color: #fff; border-radius: 3px; border: 1px solid rgba(255, 195, 16, 0.5); font-size: 14px;">
+                            <button class="uk-search-icon" uk-search-icon></button>
+                        </form>
                     </div>
+                </div>
+
+                <div class="mb-2 mt-2">
+                    <form class="uk-search uk-search-default sm_form" style="width: 100%;">
+                        <input class="uk-search-input" type="search" placeholder="Search products..." aria-label="Search" style="background-color: #fff; border-radius: 3px; border: 1px solid rgba(255, 195, 16, 0.5); font-size: 14px;">
+                        <button class="uk-search-icon" uk-search-icon></button>
+                    </form>
                 </div>
 
                 <div class="uk-slider-container-offset mx-auto" uk-slider="autoplay: true; autoplay-interval: 2500; pause-on-hover: true;">
@@ -406,92 +420,7 @@
                                 <div class="uk-card uk-card-default mb-3" style="border-radius: 3px;">
                                     <div class="uk-card-media-top">
                                         <div class="uk-card-badge uk-label" style="background-color: #2395F3; color: #fff; text-transform: capitalize;">New</div>
-                                        <img class="pt-4" src="https://s3-ap-southeast-1.amazonaws.com/com.meenabazaronline.v1.01/product/2023/5/4/ZHjREDYR7Nk5owV7ncUfFnQwtOiSsqXUZpvbdWlf___lg.webp" width="400" height="400" alt="product-img" style="display: block; margin-left: auto; margin-right: auto; width: 70%;">
-                                    </div>
-                                    <div class="uk-card-body mt-4 pt-0">
-                                        <h6 style="color: #000;">Cabbage (বাঁধাকপি)</h6>
-                                        <small class="text-muted">1KG</small>
-                                        <h6 style="color: #000;">TK 60.00</h6>
-
-                                        <a href="#" class="uk-button mt-2" style="background-color: #F99B0C; text-transform: capitalize; border-radius: 2px; width: 100%; font-size: 12px;"><span uk-icon="cart"></span> Add to Cart</a>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div>
-                            <a href="#">
-                                <div class="uk-card uk-card-default mb-3" style="border-radius: 3px;">
-                                    <div class="uk-card-media-top">
-                                        <div class="uk-card-badge uk-label" style="background-color: #2395F3; color: #fff; text-transform: capitalize;">New</div>
-                                        <img class="pt-4" src="https://s3-ap-southeast-1.amazonaws.com/com.meenabazaronline.v1.01/product/2023/12/18/tupMwQ02qEVongk1adk64Nsmn33rsiEtwniirQB6___lg.webp" width="400" height="400" alt="product-img" style="display: block; margin-left: auto; margin-right: auto; width: 70%;">
-                                    </div>
-                                    <div class="uk-card-body mt-4 pt-0">
-                                        <h6 style="color: #000;">Cabbage (বাঁধাকপি)</h6>
-                                        <small class="text-muted">1KG</small>
-                                        <h6 style="color: #000;">TK 60.00</h6>
-
-                                        <a href="#" class="uk-button mt-2" style="background-color: #F99B0C; text-transform: capitalize; border-radius: 2px; width: 100%; font-size: 13px;"><i class="fa fa-shopping-basket fa-fw"></i> Add to Cart</a>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div>
-                            <a href="#">
-                                <div class="uk-card uk-card-default mb-3" style="border-radius: 3px;">
-                                    <div class="uk-card-media-top">
-                                        <div class="uk-card-badge uk-label" style="background-color: #2395F3; color: #fff; text-transform: capitalize;">New</div>
-                                        <img class="pt-4" src="https://s3-ap-southeast-1.amazonaws.com/com.meenabazaronline.v1.01/product/2023/5/10/ef6FPa2vyI7kuLxs36eodqkSGaDJdw0GG6L3NFRw___lg.webp" width="400" height="400" alt="product-img" style="display: block; margin-left: auto; margin-right: auto; width: 70%;">
-                                    </div>
-                                    <div class="uk-card-body mt-4 pt-0">
-                                        <h6 style="color: #000;">Cabbage (বাঁধাকপি)</h6>
-                                        <small class="text-muted">1KG</small>
-                                        <h6 style="color: #000;">TK 60.00</h6>
-
-                                        <a href="#" class="uk-button mt-2" style="background-color: #F99B0C; text-transform: capitalize; border-radius: 25px; width: 100%; font-size: 13px;"><i class="fa fa-shopping-basket fa-fw"></i> Add to Cart</a>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div>
-                            <a href="#">
-                                <div class="uk-card uk-card-default mb-3" style="border-radius: 3px;">
-                                    <div class="uk-card-media-top">
-                                        <div class="uk-card-badge uk-label" style="background-color: #2395F3; color: #fff; text-transform: capitalize;">New</div>
                                         <img class="pt-4" src="https://s3-ap-southeast-1.amazonaws.com/com.meenabazaronline.v1.01/product/2023/3/30/7FXenA9r0EzeHmNnEDAgPLeftJ5SNqrCSnkRsPcI___lg.webp" width="400" height="400" alt="product-img" style="display: block; margin-left: auto; margin-right: auto; width: 70%;">
-                                    </div>
-                                    <div class="uk-card-body mt-4 pt-0">
-                                        <h6 style="color: #000;">Cabbage (বাঁধাকপি)</h6>
-                                        <small class="text-muted">1KG</small>
-                                        <h6 style="color: #000;">TK 60.00</h6>
-
-                                        <a href="#" class="uk-button mt-2" style="background-color: #F99B0C; text-transform: capitalize; border-radius: 2px; width: 100%;"><i class="fa fa-shopping-basket fa-fw"></i> Add to Cart</a>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div>
-                            <a href="#">
-                                <div class="uk-card uk-card-default mb-3" style="border-radius: 3px;">
-                                    <div class="uk-card-media-top">
-                                        <div class="uk-card-badge uk-label" style="background-color: #2395F3; color: #fff; text-transform: capitalize;">New</div>
-                                        <img class="pt-4" src="https://s3-ap-southeast-1.amazonaws.com/com.meenabazaronline.v1.01/product/2023/5/6/bvpK4U31TXbyC1mEQOfaJbRHS7geOivtxVzDD3Ec___lg.webp" width="400" height="400" alt="product-img" style="display: block; margin-left: auto; margin-right: auto; width: 70%;">
-                                    </div>
-                                    <div class="uk-card-body mt-4 pt-0">
-                                        <h6 style="color: #000;">Cabbage (বাঁধাকপি)</h6>
-                                        <small class="text-muted">1KG</small>
-                                        <h6 style="color: #000;">TK 60.00</h6>
-
-                                        <a href="#" class="uk-button mt-2" style="background-color: #F99B0C; text-transform: capitalize; border-radius: 2px; width: 100%;"><i class="fa fa-shopping-basket fa-fw"></i> Add to Cart</a>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div>
-                            <a href="#">
-                                <div class="uk-card uk-card-default mb-3" style="border-radius: 3px;">
-                                    <div class="uk-card-media-top">
-                                        <div class="uk-card-badge uk-label" style="background-color: #2395F3; color: #fff; text-transform: capitalize;">New</div>
-                                        <img class="pt-4" src="https://s3-ap-southeast-1.amazonaws.com/com.meenabazaronline.v1.01/product/2023/6/20/2LjmQQ5UA3NkzwZT4v03x4jttVge5Td7maoE1Udm___lg.webp" width="400" height="400" alt="product-img" style="display: block; margin-left: auto; margin-right: auto; width: 70%;">
                                     </div>
                                     <div class="uk-card-body mt-4 pt-0">
                                         <h6 style="color: #000;">Cabbage (বাঁধাকপি)</h6>
@@ -525,7 +454,58 @@
                                 <div class="uk-card uk-card-default mb-3" style="border-radius: 3px;">
                                     <div class="uk-card-media-top">
                                         <div class="uk-card-badge uk-label" style="background-color: #2395F3; color: #fff; text-transform: capitalize;">New</div>
-                                        <img class="pt-4" src="https://s3-ap-southeast-1.amazonaws.com/com.meenabazaronline.v1.01/product/2023/5/29/5QkJTNQgNxATZ18EmB5rNj24JALmXBow59LqoOUZ___lg.webp" width="400" height="400" alt="product-img" style="display: block; margin-left: auto; margin-right: auto; width: 70%;">
+                                        <img class="pt-4" src="https://s3-ap-southeast-1.amazonaws.com/com.meenabazaronline.v1.01/product/2023/3/30/7FXenA9r0EzeHmNnEDAgPLeftJ5SNqrCSnkRsPcI___lg.webp" width="400" height="400" alt="product-img" style="display: block; margin-left: auto; margin-right: auto; width: 70%;">
+                                    </div>
+                                    <div class="uk-card-body mt-4 pt-0">
+                                        <h6 style="color: #000;">Cabbage (বাঁধাকপি)</h6>
+                                        <small class="text-muted">1KG</small>
+                                        <h6 style="color: #000;">TK 60.00</h6>
+
+                                        <a href="#" class="uk-button mt-2" style="background-color: #F99B0C; text-transform: capitalize; border-radius: 2px; width: 100%;"><i class="fa fa-shopping-basket fa-fw"></i> Add to Cart</a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <div class="uk-card uk-card-default mb-3" style="border-radius: 3px;">
+                                    <div class="uk-card-media-top">
+                                        <div class="uk-card-badge uk-label" style="background-color: #2395F3; color: #fff; text-transform: capitalize;">New</div>
+                                        <img class="pt-4" src="https://s3-ap-southeast-1.amazonaws.com/com.meenabazaronline.v1.01/product/2023/10/2/QUcQX7LY4VbLxXTm1krLhewyZnoK10DmyJd33Naw___lg.webp" width="400" height="400" alt="product-img" style="display: block; margin-left: auto; margin-right: auto; width: 70%;">
+                                    </div>
+                                    <div class="uk-card-body mt-4 pt-0">
+                                        <h6 style="color: #000;">Cabbage (বাঁধাকপি)</h6>
+                                        <small class="text-muted">1KG</small>
+                                        <h6 style="color: #000;">TK 60.00</h6>
+
+                                        <a href="#" class="uk-button mt-2" style="background-color: #F99B0C; text-transform: capitalize; border-radius: 2px; width: 100%;"><i class="fa fa-shopping-basket fa-fw"></i> Add to Cart</a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <div class="uk-card uk-card-default mb-3" style="border-radius: 3px;">
+                                    <div class="uk-card-media-top">
+                                        <div class="uk-card-badge uk-label" style="background-color: #2395F3; color: #fff; text-transform: capitalize;">New</div>
+                                        <img class="pt-4" src="https://s3-ap-southeast-1.amazonaws.com/com.meenabazaronline.v1.01/product/2023/3/30/7FXenA9r0EzeHmNnEDAgPLeftJ5SNqrCSnkRsPcI___lg.webp" width="400" height="400" alt="product-img" style="display: block; margin-left: auto; margin-right: auto; width: 70%;">
+                                    </div>
+                                    <div class="uk-card-body mt-4 pt-0">
+                                        <h6 style="color: #000;">Cabbage (বাঁধাকপি)</h6>
+                                        <small class="text-muted">1KG</small>
+                                        <h6 style="color: #000;">TK 60.00</h6>
+
+                                        <a href="#" class="uk-button mt-2" style="background-color: #F99B0C; text-transform: capitalize; border-radius: 2px; width: 100%;"><i class="fa fa-shopping-basket fa-fw"></i> Add to Cart</a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <div class="uk-card uk-card-default mb-3" style="border-radius: 3px;">
+                                    <div class="uk-card-media-top">
+                                        <div class="uk-card-badge uk-label" style="background-color: #2395F3; color: #fff; text-transform: capitalize;">New</div>
+                                        <img class="pt-4" src="https://s3-ap-southeast-1.amazonaws.com/com.meenabazaronline.v1.01/product/2023/10/2/QUcQX7LY4VbLxXTm1krLhewyZnoK10DmyJd33Naw___lg.webp" width="400" height="400" alt="product-img" style="display: block; margin-left: auto; margin-right: auto; width: 70%;">
                                     </div>
                                     <div class="uk-card-body mt-4 pt-0">
                                         <h6 style="color: #000;">Cabbage (বাঁধাকপি)</h6>
@@ -543,8 +523,6 @@
                     <a class="uk-position-center-right uk-position-small" href uk-slidenav-next uk-slider-item="next" style="color: #7A7D7F;"></a>
 
                 </div>
-
-                <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
 
                 </div>
 
