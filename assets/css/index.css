@@ -65,6 +65,10 @@ body{
 	display: none;
 }
 
+#similarproduct-section .sm_form{
+	display: none;
+}
+
 
 
 
@@ -116,6 +120,14 @@ body{
 	}
 
 	#allproducts-section .sm_form{
+		display: block;
+	}
+
+	#similarproduct-section .lg_form{
+		display: none;
+	}
+
+	#similarproduct-section .sm_form{
 		display: block;
 	}
 
@@ -217,6 +229,47 @@ body{
 
 
 
+
+
+.quantity {
+  display: flex;
+  overflow: hidden;
+}
+
+.quantity button {
+  background-color: #878585;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  transition: background-color 0.2s;
+}
+
+.quantity button:hover {
+  background-color: #696969;
+}
+
+.input-box {
+  width: 40px;
+  text-align: center;
+  border: 1px solid #afafaf;
+  font-size: 14px;
+  outline: none;
+}
+
+/* Hide the number input spin buttons */
+.input-box::-webkit-inner-spin-button,
+.input-box::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input-box[type="number"] {
+  -moz-appearance: textfield;
+}
 
 
 
