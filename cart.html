@@ -273,13 +273,34 @@
 
 
 
-    
+
+
+    <!-- Start breadcrumb section -->
+    <section id="breadcrumb-section" class="mt-3">
+        <div class="uk-container">
+            <div class="row">
+                <div class="col-12">
+                    <nav aria-label="Breadcrumb">
+                        <ul class="uk-breadcrumb">
+                            <li><a href="index.html" style="text-decoration: none;">Home</a></li>
+                            <li class="uk-disabled"><a>Cart</a></li>
+                        </ul>
+                    </nav>
+
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End breadcrumb section -->
+
+
 
 
 
 
     <!-- Start category section -->
-    <section id="category-section" class="mt-4">
+    <section id="shoppingcart-section" class="mt-1">
         <div class="uk-container">
 
             <div class="row">
@@ -292,7 +313,7 @@
                 <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 mb-3">
                     <div class="uk-card uk-card-default uk-card-body shadow-sm py-3 px-4" style="border-radius: 3px;">
                         <div class="uk-overflow-auto">
-                        <table class="uk-table uk-table-divider">
+                        <table class="uk-table uk-table-divider uk-table-middle">
                             <thead>
                                 <tr>
                                     <th style="font-weight: 500;">Product</th>
@@ -303,13 +324,15 @@
                                 <tr>
                                     <td>
                                         <div class="d-inline uk-float-left">
-                                            <a href="" title="remove item"><i class="fa fa-trash-o" aria-hidden="true" style="color: #afafaf; margin-right: 10px;"></i></a>
+                                            <a class="deletebtn" href="" title="remove item"><i class="fa fa-trash-o" aria-hidden="true" style="margin-right: 10px;"></i></a>
                                             <a href="product.html">
                                                 <img src="https://static.vecteezy.com/system/resources/thumbnails/035/047/756/small_2x/ai-generated-high-quality-photo-of-fresh-green-cabbage-vegetable-png.png" width="70" style="border: 1px solid #ECECEC; border-radius: 2px;">
                                             </a>
                                         </div>
                                         <div class="d-inline uk-float-left">
-                                            <a href="" style="font-size: 14px; color: #282626; margin-left: 15px;">Cabbage (বাঁধাকপি)</a>
+                                            <a href="" style="font-size: 14px; color: #282626; margin-left: 15px; text-decoration: none;">Cabbage (বাঁধাকপি)</a>
+                                            <br>
+                                            <span class="uk-label px-2" style="background-color: #F0F6FB; color: #1598D9; text-transform: capitalize; font-size: 11px; margin-left: 15px;">500gm</span>
                                             <br>
                                             <span style="font-size: 13px; margin-left: 15px;"><span style="color: #696969;">1 ×</span> <strong style="color: #282626; font-weight: 600;">60.00 TK</strong></span>
                                         </div>
@@ -322,16 +345,18 @@
                                         </div>
                                     </td>
                                 </tr>
-                                <tr>
+                                <tr style="border-bottom: 1px solid #E5E5E5;">
                                     <td>
                                         <div class="d-inline uk-float-left">
-                                            <a href="" title="remove item"><i class="fa fa-trash-o" aria-hidden="true" style="color: #afafaf; margin-right: 10px;"></i></a>
+                                            <a class="deletebtn" href="" title="remove item"><i class="fa fa-trash-o" aria-hidden="true" style="margin-right: 10px;"></i></a>
                                             <a href="product.html">
                                                 <img src="https://s3-ap-southeast-1.amazonaws.com/com.meenabazaronline.v1.01/product/2024/10/2/llnFQEdywq05PpdF7Ca3F1ZGtkIno3InIMPUWmps___lg.webp" width="70" style="border: 1px solid #ECECEC; border-radius: 2px;">
                                             </a>
                                         </div>
                                         <div class="d-inline uk-float-left">
-                                            <a href="" style="font-size: 14px; color: #282626; margin-left: 15px;">Rupchanda Soyabean Oil 5Ltr</a>
+                                            <a href="" style="font-size: 14px; color: #282626; margin-left: 15px; text-decoration: none;">Rupchanda Soyabean Oil 5Ltr</a>
+                                            <br>
+                                            <span class="uk-label px-2" style="background-color: #F0F6FB; color: #1598D9; text-transform: capitalize; font-size: 11px; margin-left: 15px;">EACH</span>
                                             <br>
                                             <span style="font-size: 13px; margin-left: 15px;"><span style="color: #696969;">1 ×</span> <strong style="color: #282626; font-weight: 600;">850.00 TK</strong></span>
                                         </div>
@@ -347,6 +372,10 @@
                             </tbody>
                         </table>
                         </div>
+
+
+                        <a class="uk-button mb-3 shopping_continue" href="index.html"><i class="fa fa-long-arrow-left"></i> Continue Shopping</a>
+
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
@@ -369,7 +398,7 @@
                             </tbody>
                         </table>
 
-                        <a class="uk-button uk-width-1-1 uk-margin-small-bottom" href="#" style="background-color: #F99B0C; color: #fff; border-radius: 2px; text-transform: capitalize; font-size: 15px;">Proceed to Checkout</a>
+                        <a class="uk-button uk-width-1-1 uk-margin-small-bottom" href="#" style="background-color: #F99B0C; color: #fff; border-radius: 2px; text-transform: capitalize; font-size: 15px;">Proceed to Checkout <i class="fa fa-long-arrow-right"></i></a>
 
                         <div class="mt-4">
                             <h6><span uk-icon="tag"></span> Coupon</h6>
