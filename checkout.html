@@ -317,15 +317,15 @@
                         <hr>
                             <form class="uk-grid-small" uk-grid>
                                 <div class="uk-width-1-2@s">
-                                    <label for="" class="mb-2"><strong style="font-weight: 500;">First name</strong> <span class="text-danger">*</span></label>
+                                    <label for="" class="mb-2">First name <span class="text-danger">*</span></label>
                                     <input class="uk-input" type="text" name="first_name" required>
                                 </div>
                                 <div class="uk-width-1-2@s">
-                                    <label for="" class="mb-2"><strong style="font-weight: 500;">Email address (optional)</strong></label>
+                                    <label for="" class="mb-2">Email address (optional)</label>
                                     <input class="uk-input" type="text" name="first_name" required>
                                 </div>
                                 <div class="uk-width-1-1@s">
-                                    <label for="" class="mb-2"><strong style="font-weight: 500;">Division / District</strong> <span class="text-danger">*</span></label>
+                                    <label for="" class="mb-2">Division / District <span class="text-danger">*</span></label>
                                     <select class="uk-select" aria-label="Select">
                                         <option selected disabled>Select an option...</option>
                                         <option>Dhaka</option>
@@ -334,7 +334,7 @@
                                     </select>
                                 </div>
                                 <div class="uk-width-1-1@s">
-                                    <label for="" class="mb-2"><strong style="font-weight: 500;">City / Thana</strong> <span class="text-danger">*</span></label>
+                                    <label for="" class="mb-2">City / Thana <span class="text-danger">*</span></label>
                                     <select class="uk-select" aria-label="Select">
                                         <option selected disabled>Select an option...</option>
                                         <option>Anwara</option>
@@ -343,15 +343,15 @@
                                     </select>
                                 </div>
                                 <div class="uk-width-1-2@s">
-                                    <label for="" class="mb-2"><strong style="font-weight: 500;">Phone</strong> <span class="text-danger">*</span></label>
+                                    <label for="" class="mb-2">Phone <span class="text-danger">*</span></label>
                                     <input class="uk-input" type="text" name="phone" required>
                                 </div>
                                 <div class="uk-width-1-2@s">
-                                    <label for="" class="mb-2"><strong style="font-weight: 500;">Street address</strong> <span class="text-danger">*</span></label>
+                                    <label for="" class="mb-2">Street address <span class="text-danger">*</span></label>
                                     <input class="uk-input" type="text" name="street_address" placeholder="House number and street name" required>
                                 </div>
                                 <div class="uk-width-1-1@s mb-3">
-                                    <label for="" class="mb-2"><strong style="font-weight: 500;">Order notes (optional)</strong></label>
+                                    <label for="" class="mb-2">Order notes (optional)</label>
                                     <textarea class="uk-textarea" rows="4" placeholder="Notes about your order, e.g. special notes for delivery." aria-label="Textarea"></textarea>
                                 </div>
                             </form>
@@ -362,48 +362,60 @@
                     <div class="uk-card uk-card-default uk-card-body shadow-sm py-4" style="border-radius: 3px;">
                         <div class="uk-card-title mt-2" href style="font-weight: 500; text-decoration: none; font-size: 16px; color: #F99B0C;">YOUR ORDER</div>
 
-                        <table class="uk-table uk-table-divider uk-table-small">
+                        <table class="uk-table uk-table-divider uk-table-hover uk-table-small" style="background-color: #F8F8F8;">
                             <thead>
                                 <tr>
                                     <th style="font-weight: 500;">Product</th>
-                                    <th class="uk-float-right" style="font-weight: 500;">Subtotal</th>
+                                    <th class="uk-float-right" style="font-weight: 500;">Price</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr> 
-                                    <td style="text-transform: capitalize; font-size: 15px;">Cabbage (বাঁধাকপি) × 1</td>
-                                    <td class="uk-text-right" style="font-weight: 500; color: #282626; font-size: 15px;">60.00 TK</td>
+                                    <td style="text-transform: capitalize; font-size: 14px;">Cabbage (বাঁধাকপি) </td>
+                                    <td class="uk-text-right" style="font-size: 14px;">1 × 60.00 TK</td>
                                 </tr>
                                 <tr> 
-                                    <td style="text-transform: capitalize; font-size: 15px;">Rupchanda Soyabean Oil 5Ltr × 1</td>
-                                    <td class="uk-text-right" style="font-weight: 500; color: #282626; font-size: 15px;">850.00 TK</td>
+                                    <td style="text-transform: capitalize; font-size: 14px;">Rupchanda Soyabean Oil 5Ltr</td>
+                                    <td class="uk-text-right" style="font-size: 14px;">1 × 850.00 TK</td>
                                 </tr>
                                 <tr> 
-                                    <td style="text-transform: capitalize; font-size: 15px;">Beef Meat (গরুর মাংস) × 1</td>
-                                    <td class="uk-text-right" style="font-weight: 500; color: #282626; font-size: 15px;">750.00 TK</td>
+                                    <td style="text-transform: capitalize; font-size: 14px;">Beef Meat (গরুর মাংস)</td>
+                                    <td class="uk-text-right" style="font-size: 14px;">1 × 750.00 TK</td>
                                 </tr>
                             </tbody>
                         </table>
-                        <hr class="mb-0 pb-0">
 
-                        <table class="uk-table uk-table-divider uk-table-small mt-0 pt-0">
+                        <table class="uk-table uk-table-divider uk-table-small">
                             <tbody>
                                 <tr>
-                                    <th style="text-transform: capitalize; font-weight: 500; font-size: 15px;">Subtotal</th>
+                                    <th style="text-transform: capitalize; font-size: 15px;">Subtotal</th>
                                     <td class="uk-text-right" style="font-weight: 500; color: #282626; font-size: 15px;">1660.00 TK</td>
                                 </tr>
                                 <tr>
-                                    <th style="text-transform: capitalize; font-weight: 500; font-size: 15px;">Shipping</th>
+                                    <th style="text-transform: capitalize; font-size: 15px;">Shipping</th>
                                     <td class="uk-text-right" style="font-size: 13px;">Inside Chattogram: 60.00 TK</td>
                                 </tr>
-                                <tr style="background-color: #0FCD5B; color: #fff;">
-                                    <th style="text-transform: capitalize; font-weight: 500; font-size: 15px; color: #fff;">Total</th>
-                                    <td class="uk-text-right" style="font-weight: 500; font-size: 18px;">1720.00 TK</td>
+                                <tr>
+                                    <th style="text-transform: capitalize; font-size: 15px;">Total</th>
+                                    <td class="uk-text-right" style="font-weight: 500; font-size: 18px; color: #0FCD5B;">1720.00 TK</td>
                                 </tr>
                             </tbody>
                         </table>
 
-                        <a class="uk-button uk-width-1-1 uk-margin-small-bottom" href="#" style="background-color: #000; color: #fff; border-radius: 2px; text-transform: capitalize; font-size: 16px; font-weight: 500;">CONFIRM    ORDER</a>
+                        <h6 class="mt-4 mb-3">Payment Options</h6>
+
+                        <form>
+                            <div class="uk-form-controls mb-4 pb-2">
+                                <label class="mb-2" style="font-weight: 500; color: #000;"><input class="uk-radio" type="radio" name="radio1" checked> Cash On Delivery <img src="assets/img/social/cod-2.png" width="50" style="background-color: #fff; border-radius: 2px; padding: 3px 5px;"></label><br>
+                                <label style="font-weight: 500; color: #000;"><input class="uk-radio" type="radio" name="radio1"> Bkash <img src="https://freepnglogo.com/images/all_img/1701541855%E0%A6%AC%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%B6-%E0%A6%B2%E0%A6%97%E0%A7%8B.png" width="65" style="background-color: #fff; border-radius: 2px; padding: 3px 5px;"></label>
+                            </div>
+
+                            <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+                                <label><input class="uk-checkbox" type="checkbox" checked>  I have read and agree to the website <a href="#" style="text-decoration: none;">Terms and conditions</a> <span class="text-danger">*</span></label>
+                            </div>
+                        </form>
+
+                        <a class="uk-button uk-width-1-1 uk-margin-small-bottom" href="#" style="background-color: #000; color: #fff; border-radius: 2px; text-transform: capitalize; font-size: 16px; font-weight: 500;">CONFIRM ORDER</a>
 
                     </div>
                 </div>
