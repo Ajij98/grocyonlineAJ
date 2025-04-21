@@ -38,7 +38,11 @@ body{
 
 #bottom-navbar .uk-navbar-right>ul>li {
 		margin-top: 10px;
-	}
+}
+
+#mobile-navbar{
+	display: none;
+}
 
 
 
@@ -92,14 +96,32 @@ body{
 		font-weight: 500;
 	}*/
 
-	#bottom-navbar .nav-middle{
+	#top-navbar{
 		display: none;
 	}
-
-
-	#top-navbar .uk-navbar-center form {
+	#bottom-navbar{
 		display: none;
 	}
+	#mobile-navbar{
+		display: block;
+	}
+	#mobile-navbar .uk-navbar-center{
+		display: none;
+	}
+	#mobile-navbar .uk-navbar-container {
+		height: 55px;
+	}
+	#mobile-navbar .uk-container {
+		height: 55px;
+	}
+	#mobile-navbar .uk-navbar-nav {
+		height: 55px;
+	}
+
+	#mobile-navbar .uk-navbar-right {
+		margin-top: -25px;
+	}
+	
 
 	.top-call{
 		font-size: 14px;
