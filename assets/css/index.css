@@ -105,9 +105,7 @@ body{
 	#mobile-navbar{
 		display: block;
 	}
-	#mobile-navbar .uk-navbar-center{
-		display: none;
-	}
+	
 	#mobile-navbar .uk-navbar-container {
 		height: 55px;
 	}
@@ -117,9 +115,17 @@ body{
 	#mobile-navbar .uk-navbar-nav {
 		height: 55px;
 	}
-
 	#mobile-navbar .uk-navbar-right {
 		margin-top: -25px;
+	}
+	#mobile-navbar .uk-navbar-left img {
+		width: 22px;
+	}
+	#mobile-navbar .uk-navbar-right img {
+		width: 25px;
+	}
+	#mobile-navbar .uk-navbar-left .nav_logo {
+		width: 150px;
 	}
 	
 
