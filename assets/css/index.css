@@ -106,7 +106,7 @@ body{
 		display: block;
 	}
 	
-	#mobile-navbar .uk-navbar-container {
+	/*#mobile-navbar .uk-navbar-container {
 		height: 55px;
 	}
 	#mobile-navbar .uk-container {
@@ -117,7 +117,7 @@ body{
 	}
 	#mobile-navbar .uk-navbar-right {
 		margin-top: -25px;
-	}
+	}*/
 	#mobile-navbar .uk-navbar-left img {
 		width: 22px;
 	}
