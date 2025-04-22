@@ -106,26 +106,26 @@ body{
 		display: block;
 	}
 	
-	/*#mobile-navbar .uk-navbar-container {
-		height: 55px;
+	#mobile-navbar .uk-navbar-container {
+		height: 60px;
 	}
 	#mobile-navbar .uk-container {
-		height: 55px;
+		height: 60px;
 	}
 	#mobile-navbar .uk-navbar-nav {
-		height: 55px;
+		height: 60px;
 	}
 	#mobile-navbar .uk-navbar-right {
-		margin-top: -25px;
-	}*/
+		margin-top: -20px;
+	}
 	#mobile-navbar .uk-navbar-left img {
 		width: 22px;
 	}
 	#mobile-navbar .uk-navbar-right img {
-		width: 25px;
+		width: 22px;
 	}
 	#mobile-navbar .uk-navbar-left .nav_logo {
-		width: 150px;
+		width: 100px;
 	}
 	
 
